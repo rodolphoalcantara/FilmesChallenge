@@ -1,4 +1,9 @@
+using VideosChallenge.Infrastructure.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Configuration.SetBasePath(builder.Environment.ContentRootPath).AddJsonFile("appsettings.json", true, true);
 
 // Add services to the container.
 
@@ -6,6 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.ConfigureEntityFramework(builder.Configuration);
+builder.Services.AddRepositories();
+builder.Services.AddServices();
 
 var app = builder.Build();
 

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesChallenge.API", "FilmesChallenge.API\FilmesChallenge.API.csproj", "{68AFF589-BA71-45F9-8EEB-CC4475EB0FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideosChallenge.API", "VideosChallenge.API\VideosChallenge.API.csproj", "{68AFF589-BA71-45F9-8EEB-CC4475EB0FF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesChallenge.Application", "FilmesChallenge.Application\FilmesChallenge.Application.csproj", "{8C2440D0-4C5B-4071-A6AF-0D7458E9E23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideosChallenge.Application", "VideosChallenge.Application\VideosChallenge.Application.csproj", "{8C2440D0-4C5B-4071-A6AF-0D7458E9E23E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesChallenge.Domain", "FilmesChallenge.Domain\FilmesChallenge.Domain.csproj", "{170388C4-164C-4A1E-8138-17F96B08F1DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideosChallenge.Domain", "VideosChallenge.Domain\VideosChallenge.Domain.csproj", "{170388C4-164C-4A1E-8138-17F96B08F1DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesChallenge.Infrastructure", "FilmesChallenge.Infrastructure\FilmesChallenge.Infrastructure.csproj", "{C6B332D2-C4DE-4BB7-88CA-0332CB555020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideosChallenge.Infrastructure", "VideosChallenge.Infrastructure\VideosChallenge.Infrastructure.csproj", "{C6B332D2-C4DE-4BB7-88CA-0332CB555020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmesChallenge.Data", "FilmesChallenge.Data\FilmesChallenge.Data.csproj", "{423D86C8-C21D-42EC-9ABB-35A61D9CAD5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideosChallenge.Data", "VideosChallenge.Data\VideosChallenge.Data.csproj", "{423D86C8-C21D-42EC-9ABB-35A61D9CAD5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
